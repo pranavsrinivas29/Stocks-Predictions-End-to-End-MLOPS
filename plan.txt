@@ -1,0 +1,24 @@
+Mlops projects
+
+Notebook
+
+Orchestrate the pipeline with airflow
+Bronze layer - Data ingestion - Airflow/ Prefect
+	PostgreSQL
+Silver layer - Data Quality checks - Pander, Great Expectations
+Gold layer - Feature storing - Feast - using lags and other features
+
+API -> bronze -> store in table -> silver -> data quality checks using Pandera -> store -> gold -> feature engineering -> feast (data also here? )
+
+Orchestration Kubeflow
+Model Training -  Mlflow
+Model Versioning - DVC and Git
+
+Dockerization
+Model Deployment - FastAPI with Streamlit
+
+CI/CD
+
+Hosting - 
+
+Monitoring and retraining - Evidently AI, Prometheus
